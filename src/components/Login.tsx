@@ -9,7 +9,7 @@ type Props = {};
 const Login = (props: Props) => {
   return (
     <div className="flex px-4 md:px-20 gap-16">
-      <div className=" w-[100%] md:w-[50%]  flex flex-col h-screen md:h-auto justify-center gap-5  md:pt-7">
+      <div className=" w-[100%] md:w-[50%]  flex flex-col pt-14 md:h-auto justify-center gap-5  md:pt-7">
         <div className="text-[22px] font-semibold">
           <h1>Hey, There</h1>
           <h1>Start Sending Anonymous</h1>
