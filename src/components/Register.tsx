@@ -58,7 +58,12 @@ const Login = (props: Props) => {
             Sign in with Facebook
           </button>
         </div>
-        <p className="text-sm mt-6 md:mt-0 text-center">Don&apos;t have an account? <Link className="font-bold" href="/register">Register Now</Link></p>
+        <p className="text-sm mt-6 md:mt-0 text-center">
+          Already have an account?{" "}
+          <Link className="font-bold" href="/login">
+            Sign In
+          </Link>
+        </p>
       </div>
       <div className="bg-black hidden md:block p-10 rounded-2xl w-[50%]">
         <Image
