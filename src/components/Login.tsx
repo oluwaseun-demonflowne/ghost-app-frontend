@@ -9,7 +9,7 @@ type Props = {};
 
 const Login = (props: Props) => {
   return (
-    <div className="flex px-4 md:px-20 gap-16">
+    <div className="flex bg-white px-4 md:px-20 gap-16">
       <div className=" w-[100%] md:w-[50%]  flex flex-col pt-14 md:h-auto justify-center gap-5  md:pt-7">
         <div className="text-[22px] font-semibold">
           <h1>Hey, There</h1>
@@ -21,6 +21,8 @@ const Login = (props: Props) => {
         </p>
         <form className="flex flex-col gap-4">
           <input
+            type="email"
+            required
             className=" h-12 md:h-10 text-sm w-[100%] border-[#c9c9c9] border rounded-full pl-6"
             placeholder="Learning group@gmail.com"
           />
@@ -58,7 +60,12 @@ const Login = (props: Props) => {
             Sign in with Facebook
           </button>
         </div>
-        <p className="text-sm mt-6 md:mt-0 text-center">Don&apos;t have an account? <Link className="font-bold" href="/register">Register Now</Link></p>
+        <p className="text-sm mt-2 md:mt-0 text-center">
+          Don&apos;t have an account?{" "}
+          <Link className="font-bold" href="/register">
+            Register Now
+          </Link>
+        </p>
       </div>
       <div className="bg-black hidden md:block p-10 rounded-2xl w-[50%]">
         <Image

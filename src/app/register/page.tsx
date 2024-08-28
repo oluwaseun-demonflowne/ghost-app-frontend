@@ -1,11 +1,14 @@
-import React from 'react'
+import Register from "@/src/components/Register";
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 const page = (props: Props) => {
   return (
-    <div>page</div>
-  )
-}
+    <div>
+      <Register />
+    </div>
+  );
+};
 
-export default page
+export default page;
