@@ -9,7 +9,7 @@ type Props = {};
 const Login = (props: Props) => {
   return (
     <div className="flex px-4 md:px-20 gap-16">
-      <div className=" w-[100%] md:w-[50%] flex flex-col gap-5 pt-2 md:pt-7">
+      <div className=" w-[100%] md:w-[50%]  flex flex-col h-screen md:h-auto justify-center gap-5  md:pt-7">
         <div className="text-[22px] font-semibold">
           <h1>Hey, There</h1>
           <h1>Start Sending Anonymous</h1>
@@ -20,10 +20,10 @@ const Login = (props: Props) => {
         </p>
         <form className="flex flex-col gap-4">
           <input
-            className="h-10 text-sm w-[100%] border-[#c9c9c9] border rounded-full pl-6"
+            className=" h-12 md:h-10 text-sm w-[100%] border-[#c9c9c9] border rounded-full pl-6"
             placeholder="Learning group@gmail.com"
           />
-          <button className="h-10 bg-[#2a2a2a] text-white text-sm w-[100%] border rounded-full pl-4">
+          <button className=" h-12 md:h-10 bg-[#2a2a2a] text-white text-sm w-[100%] border rounded-full pl-4">
             Sign in with Email
           </button>
         </form>
@@ -31,10 +31,10 @@ const Login = (props: Props) => {
           OR
         </p>
         <div className="flex flex-col gap-4">
-          <button className="h-10 border-[#c9c9c9] text-black font-medium text-sm w-[100%] border rounded-full pl-4">
+          <button className=" h-12 md:h-10 border-[#c9c9c9] text-black font-medium text-sm w-[100%] border rounded-full pl-4">
             Sign in with Apple
           </button>
-          <button className="h-10 flex justify-center items-center gap-2 border-[#c9c9c9] text-black font-medium text-sm w-[100%] border rounded-full pl-4">
+          <button className=" h-12 md:h-10 flex justify-center items-center gap-2 border-[#c9c9c9] text-black font-medium text-sm w-[100%] border rounded-full pl-4">
             <Image
               unoptimized
               className="w-4 h-4 "
@@ -45,7 +45,7 @@ const Login = (props: Props) => {
             />
             Sign in with Google
           </button>
-          <button className="h-10 flex justify-center items-center gap-2 border-[#c9c9c9] text-black font-medium text-sm w-[100%] border rounded-full pl-4">
+          <button className=" h-12 md:h-10 flex justify-center items-center gap-2 border-[#c9c9c9] text-black font-medium text-sm w-[100%] border rounded-full pl-4">
             <Image
               unoptimized
               className="w-4 h-4"
